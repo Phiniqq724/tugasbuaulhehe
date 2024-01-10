@@ -1,4 +1,5 @@
 package tugasbuaulhehe;
+
 public class Bus {
     private int penumpang, maxpenumpang;
 
@@ -22,5 +23,13 @@ public class Bus {
     public void cetak(){
         System.out.println("Penumpang sekarang = " + penumpang);
         System.out.println("penumpang seharusnya adalah = " + maxpenumpang);
+    }
+
+    public void  getPassword(int password) {
+        if(password==90){
+            System.out.println("Password benar");
+        } else {
+            System.out.println("Password salah");
+        }
     }
 }

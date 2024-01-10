@@ -1,24 +1,36 @@
 package tugasbuaulhehe;
+
 public class UjiBus {
     public static void main(String[] args) {
-        Bus hewo = new Bus(5);
+        Bus busMini = new Bus(5);
 
-        hewo.addpenumpang(5);
-        hewo.cetak();
-        hewo.addpenumpang(-2);
-        hewo.cetak();
-        hewo.addpenumpang(10);
-        hewo.cetak();
+        // busMini.penumpang = 5;
+        // busMini.maxpenumpang = 5;
+        // busMini.cetak();
+        // busMini.penumpang = busMini.penumpang + 5;
+        // busMini.cetak();
+        // busMini.penumpang = busMini.penumpang - 2;
+        // busMini.cetak();
+        // busMini.penumpang = busMini.penumpang + 8;
+        // busMini.cetak();
+        // Ini untuk latihan pertama
 
-        // hewo.penumpang = 5;
-        // hewo.maxpenumpang = 5;
-        // hewo.cetak();
-        // hewo.penumpang= hewo.penumpang+5;
-        // hewo.cetak();
-        // hewo.penumpang = hewo.penumpang-2;
-        // hewo.cetak();
-        // hewo.penumpang= hewo.penumpang+8;
-        // hewo.cetak();
-        // Ini untuk latihan pertama 
+        // busMini.addpenumpang(5);
+        // busMini.cetak();
+        // busMini.addpenumpang(-2);
+        // busMini.cetak();
+        // busMini.addpenumpang(10);
+        // busMini.cetak();
+        // Ini untuk latihan 2.1
+
+        busMini.getPassword(235);
+        busMini.getPassword(90);
+        busMini.cetak();
+        busMini.addpenumpang(3);
+        busMini.cetak();
+        busMini.addpenumpang(1);
+        busMini.cetak();
+        busMini.addpenumpang(1);
+        busMini.cetak();
     }
 }
