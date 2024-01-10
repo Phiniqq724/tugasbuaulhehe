@@ -27,10 +27,13 @@ public class UjiBus {
         busMini.getPassword(90);
         busMini.cetak();
         busMini.addpenumpang(3);
+        busMini.addBerat(90);
         busMini.cetak();
         busMini.addpenumpang(1);
+        busMini.addBerat(50);
         busMini.cetak();
         busMini.addpenumpang(1);
+        busMini.addBerat(40);
         busMini.cetak();
     }
 }
