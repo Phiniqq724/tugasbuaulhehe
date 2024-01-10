@@ -1,6 +1,7 @@
-public class Bismillah {
+package tugasbuaulhehe;
+public class UjiBus {
     public static void main(String[] args) {
-        Bis hewo = new Bis(5);
+        Bus hewo = new Bus(5);
 
         hewo.addpenumpang(5);
         hewo.cetak();
@@ -18,5 +19,6 @@ public class Bismillah {
         // hewo.cetak();
         // hewo.penumpang= hewo.penumpang+8;
         // hewo.cetak();
+        // Ini untuk latihan pertama 
     }
 }

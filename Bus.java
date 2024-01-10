@@ -1,8 +1,9 @@
-public class Bis {
+package tugasbuaulhehe;
+public class Bus {
     private int penumpang, maxpenumpang;
 
     //Konstruktor
-    public Bis(int maxpenumpang){
+    public Bus(int maxpenumpang){
         this.maxpenumpang=maxpenumpang;
         penumpang=0;
     }
