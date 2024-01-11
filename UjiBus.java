@@ -1,5 +1,3 @@
-package tugasbuaulhehe;
-
 public class UjiBus {
     public static void main(String[] args) {
         Bus busMini = new Bus(5);

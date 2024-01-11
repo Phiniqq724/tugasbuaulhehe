@@ -1,5 +1,3 @@
-package tugasbuaulhehe;
-
 public class Bus {
     private int penumpang, maxpenumpang;
     private double berat, totalBerat;
