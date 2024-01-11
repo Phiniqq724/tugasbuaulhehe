@@ -1,6 +1,6 @@
 public class Bus {
     private int penumpang, maxpenumpang;
-    private double berat, totalBerat;
+    private double berat, totalBerat, average;
 
     //Konstruktor
     public Bus(int maxpenumpang){
@@ -24,6 +24,7 @@ public class Bus {
         System.out.println("Penumpang sekarang = " + penumpang);
         System.out.println("penumpang seharusnya adalah = " + maxpenumpang);
         System.out.println("Total beratnya adalah = " + totalBerat);
+        System.out.println("Average berat = " + average);
     }
 
     public void  getPassword(int password) {
@@ -36,5 +37,9 @@ public class Bus {
 
     public void addBerat(double berat){
         totalBerat = totalBerat + berat;
+    }
+
+    public void getAverage(){
+        average = totalBerat / penumpang;
     }
 }

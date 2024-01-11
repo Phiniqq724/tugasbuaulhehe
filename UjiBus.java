@@ -23,15 +23,26 @@ public class UjiBus {
 
         busMini.getPassword(235);
         busMini.getPassword(90);
-        busMini.cetak();
-        busMini.addpenumpang(3);
-        busMini.addBerat(90);
-        busMini.cetak();
-        busMini.addpenumpang(1);
-        busMini.addBerat(50);
-        busMini.cetak();
-        busMini.addpenumpang(1);
+        // busMini.getAverage();
+        // busMini.cetak();
+        // busMini.addpenumpang(3);
+        // busMini.addBerat(90);
+        // busMini.getAverage();
+        // busMini.cetak();
+        // busMini.addpenumpang(1);
+        // busMini.addBerat(50);
+        // busMini.getAverage();
+        // busMini.cetak();
+        // busMini.addpenumpang(1);
+        // busMini.addBerat(40);
+        // busMini.getAverage();
+        // busMini.cetak();
+        busMini.addpenumpang(4);
+        busMini.addBerat(30);
         busMini.addBerat(40);
+        busMini.addBerat(30);
+        busMini.addBerat(20);
+        busMini.getAverage();
         busMini.cetak();
     }
 }
